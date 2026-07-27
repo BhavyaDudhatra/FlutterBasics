@@ -34,6 +34,8 @@ class MyApp extends StatelessWidget {
       home: home1(),
     );
   }
+
+  Widget? home1() {}
 }
 
 class MyHomePage extends StatefulWidget {

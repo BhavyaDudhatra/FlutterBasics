@@ -1,17 +1,33 @@
+// import 'dart:ui_web';
+//
+// import 'package:flutter/material.dart';
+//
+// class Home1 extends StatelessWidget {
+//   Home1({super.key});
+//
+//   TextEditingController name=TextEditingController();
+//   TextEditingController email=TextEditingController();
+//   TextEditingController number=TextEditingController();
+//   TextEditingController password=TextEditingController();
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
 import 'package:flutter/material.dart';
 
-class home1 extends StatelessWidget {
-  home1({super.key});
+class Home1 extends StatelessWidget {
+Home1({super.key});
 
-  TextEditingController name=TextEditingController();
-  TextEditingController email=TextEditingController();
-  TextEditingController number=TextEditingController();
-  TextEditingController password=TextEditingController();
+final TextEditingController name = TextEditingController();
+final TextEditingController email = TextEditingController();
+final TextEditingController number = TextEditingController();
+final TextEditingController password = TextEditingController();
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
+@override
+Widget build(BuildContext context) {
+return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
             height: 100,
@@ -111,8 +127,13 @@ class home1 extends StatelessWidget {
               ),
 
             ),
-          ),
 
+
+          ),
+          // ElevatedButton(
+          //   onPressed: (){},
+          //   child: Text("Submit"),
+          // ),
         ],
       ),
     );
