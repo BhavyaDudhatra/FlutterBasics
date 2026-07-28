@@ -31,11 +31,13 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: home1(),
+      home: dispose(),
     );
   }
 
   Widget? home1() {}
+
+  Widget? dispose() {}
 }
 
 class MyHomePage extends StatefulWidget {
