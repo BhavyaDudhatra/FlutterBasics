@@ -2,7 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class lists extends StatelessWidget{
-  const lists({super.key});
+  lists({super.key});
+
+  List color=[Colors.red, Colors.blue, Colors.amber, Colors.black, Colors.deepPurple, Colors.pinkAccent];
 
   @override
   Widget build(BuildContext context){
