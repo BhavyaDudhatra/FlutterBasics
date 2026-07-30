@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:loan_calculator/list_view_example.dart';
 // import 'package:loan_calculator/home.dart'
 
-import 'login_page.dart';
+import 'list_view_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,15 +34,15 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: login_page(),
+      home: lists(),
     );
   }
+  //
+  // Widget? home1() {}
+  //
+  // Widget? dispose() {}
 
-  Widget? home1() {}
-
-  Widget? dispose() {}
-
-  Widget? login_page() {}
+  // Widget? login_page() {}
 }
 
 class MyHomePage extends StatefulWidget {
