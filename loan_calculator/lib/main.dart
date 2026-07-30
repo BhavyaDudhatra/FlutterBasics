@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:loan_calculator/home.dart';
+// import 'package:loan_calculator/home.dart'
+
+import 'login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,13 +33,15 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: dispose(),
+      home: login_page(),
     );
   }
 
   Widget? home1() {}
 
   Widget? dispose() {}
+
+  Widget? login_page() {}
 }
 
 class MyHomePage extends StatefulWidget {
