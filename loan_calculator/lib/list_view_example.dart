@@ -10,7 +10,8 @@ class lists extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       body: ListView.builder(
-          itemCount: 5,
+          scrollDirection: Axis.horizontal,
+          itemCount: color.length,
           itemBuilder: (context, index){
             return Center(
               child: Padding(
@@ -20,7 +21,7 @@ class lists extends StatelessWidget{
                     width: 150,
                     child:Text("$index"),
                     decoration: BoxDecoration(
-                      color: Colors.red,
+                      color: color[index],
                     ),
                   )),
             );
